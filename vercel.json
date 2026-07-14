@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/review",
+      "destination": "https://telegram.me/tdvizh_ai_bot?start=review",
+      "permanent": false
+    }
+  ]
+}
