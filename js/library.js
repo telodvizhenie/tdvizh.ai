@@ -40,7 +40,7 @@
     item.addEventListener('click', ()=>{
       const pdfUrl = item.getAttribute('data-pdf');
       if(pdfUrl){
-        window.open(pdfUrl, '_blank', 'noopener');
+        window.open(pdfUrl, '_blank', 'noopener,noreferrer');
       } else {
         openPub(item.getAttribute('data-pub'));
       }
