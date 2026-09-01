@@ -46,6 +46,13 @@
       }
     });
   });
+
+  // ---------- CONTEXTMENU PROTECTION ----------
+  // Prevent right-click context menu on publication images
+  document.querySelectorAll('[data-no-contextmenu]').forEach((element) => {
+    element.addEventListener('contextmenu', (event) => event.preventDefault());
+  });
+
   pubModal.querySelectorAll('[data-close]').forEach(el=>{
     el.addEventListener('click', closePub);
   });
