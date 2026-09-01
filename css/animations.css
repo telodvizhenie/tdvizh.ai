@@ -79,6 +79,36 @@
 
   @keyframes fadein{to{opacity:1;}}
 
+/* ========== DIAGRAM ANIMATION DELAYS ========== */
+/* Path connecting lines delays */
+.diagram-line-delay-1{animation-delay:0.1s;}
+.diagram-line-delay-2{animation-delay:0.25s;}
+.diagram-line-delay-3{animation-delay:0.4s;}
+.diagram-line-delay-4{animation-delay:0.55s;}
+
+/* Outer ring and corner node ring delays */
+.diagram-node-ring-delay-1{animation-delay:0.5s;}
+.diagram-node-ring-delay-2{animation-delay:0.65s;}
+.diagram-node-ring-delay-3{animation-delay:0.8s;}
+.diagram-node-ring-delay-4{animation-delay:0.95s;}
+.diagram-node-ring-delay-5{animation-delay:0.9s;}
+
+/* Corner node dot delays */
+.diagram-node-dot-delay-1{animation-delay:0.6s;}
+.diagram-node-dot-delay-2{animation-delay:0.75s;}
+.diagram-node-dot-delay-3{animation-delay:0.9s;}
+.diagram-node-dot-delay-4{animation-delay:1.05s;}
+
+/* Label delays */
+.diagram-label-delay-1{animation-delay:1s;}
+.diagram-label-delay-2{animation-delay:1.1s;}
+.diagram-label-delay-3{animation-delay:1.2s;}
+.diagram-label-delay-4{animation-delay:1.3s;}
+.diagram-label-delay-5{animation-delay:1.4s;}
+
+/* Core circle delay */
+.diagram-core-delay-1{animation-delay:1.15s;}
+
   @media (prefers-reduced-motion: reduce){
     .diagram-line,.diagram-node-ring,.diagram-node-dot,.diagram-label,.diagram-core{animation:none;opacity:1;stroke-dashoffset:0;}
   }

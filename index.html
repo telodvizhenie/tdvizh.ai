@@ -82,29 +82,29 @@
       <div class="diagram-wrap reveal in">
         <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
           <!-- connecting lines to center -->
-          <path class="diagram-line" d="M120,110 L240,240" style="animation-delay:.1s"/>
-          <path class="diagram-line" d="M360,110 L240,240" style="animation-delay:.25s"/>
-          <path class="diagram-line" d="M120,370 L240,240" style="animation-delay:.4s"/>
-          <path class="diagram-line" d="M360,370 L240,240" style="animation-delay:.55s"/>
+          <path class="diagram-line diagram-line-delay-1" d="M120,110 L240,240"/>
+          <path class="diagram-line diagram-line-delay-2" d="M360,110 L240,240"/>
+          <path class="diagram-line diagram-line-delay-3" d="M120,370 L240,240"/>
+          <path class="diagram-line diagram-line-delay-4" d="M360,370 L240,240"/>
           <!-- outer ring -->
-          <circle class="diagram-node-ring" cx="240" cy="240" r="150" style="animation-delay:.9s"/>
+          <circle class="diagram-node-ring diagram-node-ring-delay-5" cx="240" cy="240" r="150"/>
           <!-- corner nodes -->
-          <circle class="diagram-node-ring" cx="120" cy="110" r="30" style="animation-delay:.5s"/>
-          <circle class="diagram-node-ring" cx="360" cy="110" r="30" style="animation-delay:.65s"/>
-          <circle class="diagram-node-ring" cx="120" cy="370" r="30" style="animation-delay:.8s"/>
-          <circle class="diagram-node-ring" cx="360" cy="370" r="30" style="animation-delay:.95s"/>
-          <circle class="diagram-node-dot" cx="120" cy="110" r="3" style="animation-delay:.6s"/>
-          <circle class="diagram-node-dot" cx="360" cy="110" r="3" style="animation-delay:.75s"/>
-          <circle class="diagram-node-dot" cx="120" cy="370" r="3" style="animation-delay:.9s"/>
-          <circle class="diagram-node-dot" cx="360" cy="370" r="3" style="animation-delay:1.05s"/>
+          <circle class="diagram-node-ring diagram-node-ring-delay-1" cx="120" cy="110" r="30"/>
+          <circle class="diagram-node-ring diagram-node-ring-delay-2" cx="360" cy="110" r="30"/>
+          <circle class="diagram-node-ring diagram-node-ring-delay-3" cx="120" cy="370" r="30"/>
+          <circle class="diagram-node-ring diagram-node-ring-delay-4" cx="360" cy="370" r="30"/>
+          <circle class="diagram-node-dot diagram-node-dot-delay-1" cx="120" cy="110" r="3"/>
+          <circle class="diagram-node-dot diagram-node-dot-delay-2" cx="360" cy="110" r="3"/>
+          <circle class="diagram-node-dot diagram-node-dot-delay-3" cx="120" cy="370" r="3"/>
+          <circle class="diagram-node-dot diagram-node-dot-delay-4" cx="360" cy="370" r="3"/>
           <!-- labels -->
-          <text class="diagram-label" x="120" y="75" text-anchor="middle" style="animation-delay:1s">PROCESS</text>
-          <text class="diagram-label" x="360" y="75" text-anchor="middle" style="animation-delay:1.1s">DATA</text>
-          <text class="diagram-label" x="120" y="415" text-anchor="middle" style="animation-delay:1.2s">AUTOMATION</text>
-          <text class="diagram-label" x="360" y="415" text-anchor="middle" style="animation-delay:1.3s">AI</text>
+          <text class="diagram-label diagram-label-delay-1" x="120" y="75" text-anchor="middle">PROCESS</text>
+          <text class="diagram-label diagram-label-delay-2" x="360" y="75" text-anchor="middle">DATA</text>
+          <text class="diagram-label diagram-label-delay-3" x="120" y="415" text-anchor="middle">AUTOMATION</text>
+          <text class="diagram-label diagram-label-delay-4" x="360" y="415" text-anchor="middle">AI</text>
           <!-- core -->
-          <circle class="diagram-core" cx="240" cy="240" r="5" style="animation-delay:1.15s"/>
-          <text class="diagram-label" x="240" y="270" text-anchor="middle" style="animation-delay:1.4s">SYSTEM</text>
+          <circle class="diagram-core diagram-core-delay-1" cx="240" cy="240" r="5"/>
+          <text class="diagram-label diagram-label-delay-5" x="240" y="270" text-anchor="middle">SYSTEM</text>
         </svg>
       </div>
     </div>
@@ -128,7 +128,7 @@
   <section class="philosophy" id="philosophy">
     <div class="wrap">
       <div class="eyebrow reveal">PHILOSOPHY</div>
-      <div class="stack" style="margin-top:20px;">
+      <div class="stack">
         <span class="reveal">AI is a tool.</span>
         <span class="reveal">Architecture is the foundation.</span>
         <span class="reveal">Technology follows structure.</span>
@@ -238,7 +238,7 @@
     <div class="wrap audience-grid">
       <div>
         <div class="eyebrow reveal">WHO WE WORK WITH</div>
-        <h2 class="reveal" style="font-size:clamp(28px,3.6vw,42px);font-weight:700;letter-spacing:-0.02em;margin:18px 0 22px;">Built for businesses that want to scale through systems, not headcount.</h2>
+        <h2 class="reveal">Built for businesses that want to scale through systems, not headcount.</h2>
         <p class="reveal">Founders, CEOs and managing directors who've outgrown manual operations — and are ready to treat the business as one system, rather than a set of disconnected tools and habits.</p>
       </div>
       <div class="criteria reveal">
@@ -253,7 +253,7 @@
   <!-- PRINCIPLES -->
   <section class="principles" id="principles">
     <div class="wrap">
-      <div class="section-head" style="margin-bottom:44px;">
+      <div class="section-head">
         <div class="eyebrow reveal">PRINCIPLES</div>
         <h2 class="reveal">Rules we don't break.</h2>
       </div>
@@ -270,10 +270,10 @@
   <!-- LIBRARY -->
   <section class="library" id="library">
     <div class="wrap">
-      <div class="section-head" style="margin-bottom:52px;">
+      <div class="section-head">
         <div class="eyebrow reveal">LIBRARY</div>
         <h2 class="reveal">Official publications.</h2>
-        <p class="reveal" style="margin-top:18px;color:var(--muted);font-size:16px;line-height:1.7;max-width:560px;">The governing documents of the tdvizh.ai ecosystem — published, not distributed. Covers only.</p>
+        <p class="reveal">The governing documents of the tdvizh.ai ecosystem — published, not distributed. Covers only.</p>
       </div>
       <div class="library-grid">
         <button class="pub-card reveal" data-pub="master-symbol">
@@ -328,10 +328,10 @@
   <!-- FINAL CTA -->
   <section class="cta-final" id="start">
     <div class="wrap">
-      <div class="eyebrow reveal" style="justify-content:center;">START HERE</div>
+      <div class="eyebrow reveal">START HERE</div>
       <h2 class="reveal">Start with a Review, not a proposal.</h2>
       <p class="reveal">Fifteen minutes to understand how your business actually runs — before we talk about any technology at all. The Architecture Review happens inside Telegram.</p>
-      <a href="https://telegram.me/tdvizh_ai_bot?start=review" target="_blank" rel="noopener noreferrer" class="btn reveal" style="padding:14px 28px;font-size:14px;">Start Architecture Review on Telegram →</a>
+      <a href="https://telegram.me/tdvizh_ai_bot?start=review" target="_blank" rel="noopener noreferrer" class="btn reveal">Start Architecture Review on Telegram →</a>
     </div>
   </section>
 
