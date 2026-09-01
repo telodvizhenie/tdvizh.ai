@@ -216,6 +216,28 @@ section{padding:120px 0; position:relative;}
 
 .cta-final p{color:var(--muted); font-size:16.5px; max-width:520px; margin:0 auto 40px; line-height:1.7;}
 
+/* ========== LAYOUT INLINE STYLE MIGRATIONS ========== */
+/* Philosophy section stack spacing */
+.philosophy .stack{margin-top:20px;}
+
+/* Audience grid heading (WHO WE WORK WITH) */
+.audience-grid h2{font-size:clamp(28px,3.6vw,42px);font-weight:700;letter-spacing:-0.02em;margin:18px 0 22px;}
+
+/* Principles section head compact spacing */
+.principles .section-head{margin-bottom:44px;}
+
+/* Library section head relaxed spacing */
+.library .section-head{margin-bottom:52px;}
+
+/* Library section description paragraph */
+.library .section-head p{margin-top:18px;color:var(--muted);font-size:16px;line-height:1.7;max-width:560px;}
+
+/* CTA final section eyebrow centered */
+.cta-final .eyebrow{justify-content:center;}
+
+/* CTA final section button variant */
+.cta-final .btn{padding:14px 28px;font-size:14px;}
+
   /* ---------- FOOTER ---------- */
 
 footer{border-top:1px solid var(--line); padding:96px 0 56px;}
